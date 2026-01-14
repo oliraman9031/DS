@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
         int new_size, size = 0;
-        int max_size = 100;
+        int max_size = 99;
         int array[max_size];
         int reverse_array[max_size];
 
@@ -25,7 +25,7 @@ int main(){
         cout << "Element " << i + 1 << ":";
         cin >> array[i];
         }
-        cout << "Array created successfully." << endl;
+        cout << "Array created successfully" << endl;
 
     // to reverse an array.
         int j=0;
